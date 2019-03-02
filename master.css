@@ -1,0 +1,36 @@
+button {
+  border-radius: 5px;
+  background-color: hotpink;
+  border-color: hotpink;
+  font-size: 0.6cm;
+  font-family: sans-serif;
+
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.sexy_hr{
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#e3e3e3), to(#0a111c));
+}
+body {
+  background-color: #0a111c;
+  color: white;
+  font-size: 0.5cm;
+}
+
+::selection {
+  background: #db2af7; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: #db2af7; /* Gecko Browsers */
+}
