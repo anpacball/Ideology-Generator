@@ -2,25 +2,24 @@ var ideologies = ["Queer", "Collapsitarian", "Techno-", "Traditionalist", "Feder
 "Lumpenproletariat", "Circus", "Nationalist", "Voluntary", "Survival", "Post-Civ", "Transhuman", "Transgender",
 "Gay", "Anarchist", "Post-Scarcity", "Individualist", "Market-", "Right-wing", "Left-wing", "Facistic", "HomoSexual", "Nigger",
 "Mafia", "Hedonist", "Egoistic", "Bolshevik", "Illegalist", "Accelerationist", "Darwinian", "Syndicalistic",
-"Neo-", "Post-", "Anti-", "Ultra-", "Judeo-", "Big-", "Woke", "Based", "Faggot-like", "Satanist",
-"Christian", "Islamist", "Jewish", "Ultra-gay", "Marxian", "Leninistic", "DystopianRealist",
-"LeftCommunist", "Jucheist", "Althusserian", "Lacanian", "Zizekaian", "Foucaultian", "Dimmatarian", "Zionist", "Juden-", "LARPer",
-"Redundant", "\"Open-Source\"-ist", "Social-", "Democratic", "Anarcho-", "Leftism", "Workerist", "Chomskyan", "Cowboyist",
+"Neo-", "Post-", "Anti-", "Ultra-", "Communal", "Judeo-", "Big-", "Woke", "Based", "Faggot-like", "Satanist",
+"Christian", "Islamist", "Jewish", "Ultra-gay", "Marxian", "Leninistic", "DystopianRealist", "Anarcho-", "Leftism",
+"LeftCommunist", "Jucheist", "Althusserian", "Lacanian", "Zizekaian", "Foucaultian", "Dimmatarian", "Zionist",
+"Juden-", "LARPer", "Redundant", "\"Open-Source\"-ist", "Social-", "Democratic", "Workerist", "Chomskyan", "Cowboyist",
 "Stirnerite-", "SocialDemocratic", "\"All tax is theft\"-ist", "Agorist", "Conservetive", "Liberal", "Reactionary", "Progressive",
 "Masochistic", "Anti-Police", "Trump-supporting", "Globalist", "Paleo-", "Soviet", "American-", "Scandinavian-",
-"Dictatorial","Clerical", "Imperialist", "Authoritarian", "State-Enforced", "Paganist", "Selfish",
+"Dictatorial","Clerical", "Imperialist", "Authoritarian", "\"Anti-Feminazi\"", "State-Enforced", "Paganist", "Selfish",
 "Creatonist", "Egalitarian", "Constitutionalist", "Counter-Economical", "Government", "Ethno-", "Stateist",
-"Post-left", "Bureaucratic", "Platonism", "Pacifist", "Militant", "Revolutionary", "Insurrectionist", "Third-Worldist",
+"Post-left", "Bureaucratic", "Platonist", "Pacifist", "Militant", "Revolutionary", "Insurrectionist", "Third-Worldist",
 "Gandhian", "Esoteric", "Absolute-", "Orthodox", "Cyber-", "Situationist", "Öcalanist-", "Crypto-", "FreeMarket",
 "Reinfeldtist-", "Francoist", "Brezjnevist", "Unorthodoxical-", "Collectivist", "Kurdish", "Arab", "Isreali", "French",
-"Equatorial", "Lobbyist-", "Veganism", "Vegetarianism", "Hegalian", "Engelian", "Merkelist", "Pinochetian-"];
-
+"Equatorial", "Lobbyist-", "Veganist", "Vegetarianist", "Hegalian", "Engelian", "Merkelist", "Pinochetian-", "Post-Colonial"];
 
 var endings = ["Strasserist", "Maoist", "Stalinist", "Libertarian", "Communist", "Socialist", "Marxist", "Minarchist",
 "SocialDemocrat", "Mutualist", "Objectivist", "Syndicalist", "Capitalist", "ClassicalLiberal", "Leninist", "Hoaxaist",
 "PolPotist", "Titoist", "Facist", "Nazi", "Moderate", "Egoist", "Voluntaryism", "Black Liberationist", "Neo-Abolitionist",
 "Putinist", "Feralist", "Laissez-Faire Capitalist", "Royalist", "Monarchist", "Posadist", "Trotskyism", "Erdoganism",
-"Tumblrist", "Populist", "Thatcherite"];
+"Tumblrist", "Populist", "Thatcherite", "Feminist"];
 
 var state = ["Extreme", "Moderate", "Agnostic", "Mild", "Dystopian", "Ultra Extreme", "Radical", "Insanly Radical"];
 
