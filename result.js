@@ -1,5 +1,5 @@
 var ideologies = ["Queer", "Collapsitarian", "Techno-", "Traditionalist", "Federalist", "Keynesian",
-"Lumpenproletariat", "Circus", "Nationalist", "Voluntary", "Survival", "Post-Civ", "Transhuman", "Transgender", "Queer",
+"Lumpenproletariat", "Circus", "Nationalist", "Voluntary", "Survival", "Post-Civ", "Transhuman", "Transgender",
 "Gay", "Anarchist", "Post-Scarcity", "Individualist", "Market-", "Right-wing", "Left-wing", "Facistic", "HomoSexual", "Nigger",
 "Mafia", "Hedonist", "Egoistic", "Bolshevik", "Illegalist", "Accelerationist", "Darwinian", "Syndicalistic",
 "Neo-", "Post-", "Anti-", "Ultra-", "Judeo-", "Big-", "Woke", "Based", "Faggot-like", "Satanist",
@@ -8,7 +8,7 @@ var ideologies = ["Queer", "Collapsitarian", "Techno-", "Traditionalist", "Feder
 "Redundant", "\"Open-Source\"-ist", "Social-", "Democratic", "Anarcho-", "Leftism", "Workerist", "Chomskyan", "Cowboyist",
 "Stirnerite-", "SocialDemocratic", "\"All tax is theft\"-ist", "Agorist", "Conservetive", "Liberal", "Reactionary", "Progressive",
 "Masochistic", "Anti-Police", "Trump-supporting", "Globalist", "Paleo-", "Soviet", "American-", "Scandinavian-",
-"Dictatorial","Clerical", "Imperialist", "Authoritarian", "State-Enforced", "Paganist", "ClassicalLiberal", "Selfish",
+"Dictatorial","Clerical", "Imperialist", "Authoritarian", "State-Enforced", "Paganist", "Selfish",
 "Creatonist", "Egalitarian", "Constitutionalist", "Counter-Economical", "Government", "Ethno-", "Stateist",
 "Post-left", "Bureaucratic", "Platonism", "Pacifist", "Militant", "Revolutionary", "Insurrectionist", "Third-Worldist",
 "Gandhian", "Esoteric", "Absolute-", "Orthodox", "Cyber-", "Situationist", "Öcalanist-", "Crypto-", "FreeMarket",
@@ -37,7 +37,6 @@ var word_counter = 0;
 function check(x) {
   for (var i = 0; i < used.length; i++) {
     if (used[i] == x) {
-      console.log("[Double] used: " + used[i] + " x: " + x + " Word: " + ideologies[used[i]] + " Count:" + word_counter);
       return true;
     }
   }
@@ -45,7 +44,7 @@ function check(x) {
 }
 
 function result() {
-  console.log("---------------------------------------");
+  //console.log("---------------------------------------");
   var res = document.getElementById("res");
   var all_html = "";
 
@@ -56,7 +55,7 @@ function result() {
   var y = gety();
 
   for (var i = 0; i < x; i++) {
-    var already_used = check(i);
+    var already_used = check(y);
     word_counter += 1;
     var sep = " ";
 
@@ -64,7 +63,6 @@ function result() {
       if (ideologies[y].slice(-1) == "-") { sep = ""; }
       all_html = all_html + ideologies[y] + sep;
       used.push(y);
-      x = getx();
       y = gety();
     }
   }
@@ -84,5 +82,11 @@ function result() {
   }
   used = [];
   word_counter = 0;
+/*var verifier = all_html.split(" ");
+  for (var i = 0; i < verifier.length; i++) {
+    if ((all_html.split(verifier[i]).length - 1) > 1) {
+      if (verifier[i] != "is") {console.log("Double: " + verifier[i]);}
+    }
+  }*/
   res.innerHTML = "<h3>" + all_html + "</h3>";
 }
