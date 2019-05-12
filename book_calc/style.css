@@ -3,7 +3,7 @@
   margin-right: 30%;
   margin-top: 1%;
 }
-@media only screen and (max-width: 768px)
+@media only screen and (max-width: 1075px)
 {
   #sidan {
     margin-left: 3%;
@@ -13,4 +13,24 @@
   #title {
     display: none;
   }
+}
+hr {
+	border: 0;
+	height: 1px;
+  margin-left: 25%;
+  margin-right: 25%;
+	background-image: linear-gradient(left , rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.1) 100%);
+	background-image: -o-linear-gradient(left , rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.1) 100%);
+	background-image: -moz-linear-gradient(left , rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.1) 100%);
+	background-image: -webkit-linear-gradient(left , rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.1) 100%);
+	background-image: -ms-linear-gradient(left , rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.1) 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		right bottom,
+		color-stop(0, rgba(0, 0, 0, 0.1)),
+		color-stop(0.5, rgba(0, 0, 0, 0.3)),
+		color-stop(1.0, rgba(0, 0, 0, 0.1))
+	);
 }
