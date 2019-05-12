@@ -1,0 +1,16 @@
+#sidan {
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 1%;
+}
+@media only screen and (max-width: 768px)
+{
+  #sidan {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+  }
+  #title {
+    display: none;
+  }
+}
