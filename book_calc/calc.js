@@ -41,7 +41,7 @@ function calc() {
     return;
   }
   const lantid = 30;
-  const omlan = 6;
+  const omlan = 4;
   const finetune = 0.85;
   var output = "Det kommer att ta dig ";
 
